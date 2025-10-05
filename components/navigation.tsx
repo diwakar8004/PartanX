@@ -468,7 +468,14 @@ export function Navigation() {
             ref={hamburgerRef}
             variant="ghost"
             size="icon"
-            onClick={() => setIsOpen(!isOpen)}
+            onClick={() => {
+              // When opening the mobile menu, reset any expanded accordion sections
+              // so the Register/Login area (and other UI) remains visible by default.
+              if (!isOpen) {
+                setExpandedSections({})
+              }
+              setIsOpen(!isOpen)
+            }}
             className={cn(
               "transition-all duration-200 ease-in-out hover:bg-accent focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2",
               isOpen && "bg-accent",
