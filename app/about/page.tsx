@@ -26,7 +26,7 @@ const leadership = [
     image: "/professional-headshot-of-michael-rodriguez--cto.jpg",
   },
   {
-    name: "Dr. Emily Watson",
+    name: "Dr. Emily",
     role: "Chief Security Officer",
     bio: "PhD in Cybersecurity, former NSA analyst. Specializes in threat intelligence and incident response.",
     image: "/professional-headshot-of-dr--emily-watson--cso.jpg",
