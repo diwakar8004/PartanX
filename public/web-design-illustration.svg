@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" fill="none">
+  <rect width="1200" height="480" rx="16" fill="#F8FAFC" />
+  <rect x="72" y="48" width="1056" height="320" rx="12" fill="#ffffff" stroke="#E6E9EE" />
+  <rect x="96" y="80" width="960" height="40" rx="6" fill="#eef2ff" />
+  <rect x="96" y="136" width="420" height="16" rx="4" fill="#cbd5e1" />
+  <rect x="96" y="164" width="760" height="16" rx="4" fill="#cbd5e1" />
+  <rect x="96" y="192" width="520" height="16" rx="4" fill="#cbd5e1" />
+  <rect x="96" y="220" width="300" height="16" rx="4" fill="#cbd5e1" />
+  <rect x="96" y="260" width="360" height="56" rx="8" fill="#eef2ff" />
+  <rect x="96" y="328" width="1000" height="12" rx="6" fill="#e6eef8" />
+
+  <!-- Monitor stand -->
+  <rect x="480" y="384" width="240" height="16" rx="4" fill="#E6E9EE" />
+  <rect x="560" y="400" width="80" height="24" rx="8" fill="#E6E9EE" />
+
+  <!-- Code bracket icon -->
+  <g transform="translate(880,120)">
+    <rect x="0" y="0" width="160" height="160" rx="12" fill="#fff" stroke="#e6e9ee" />
+    <path d="M42 60 L58 84 L42 108" stroke="#6b7280" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M118 60 L102 84 L118 108" stroke="#6b7280" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+
+  <!-- subtle decorative circles -->
+  <circle cx="220" cy="110" r="6" fill="#60a5fa" opacity="0.2" />
+  <circle cx="300" cy="70" r="10" fill="#34d399" opacity="0.12" />
+
+  <text x="96" y="64" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="20">Web Design Preview</text>
+</svg>

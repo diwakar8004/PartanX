@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" fill="none">
+  <rect width="1200" height="480" rx="16" fill="#FFF7ED" />
+  <rect x="72" y="48" width="1056" height="320" rx="12" fill="#fff" stroke="#F5E1C8" />
+
+  <!-- phone mockup -->
+  <g transform="translate(96,100)">
+    <rect x="0" y="0" width="160" height="320" rx="24" fill="#FFFBEB" stroke="#F7D6A3" />
+    <rect x="16" y="24" width="128" height="256" rx="12" fill="#fff" />
+    <circle cx="80" cy="296" r="8" fill="#F7D6A3" />
+  </g>
+
+  <!-- post previews -->
+  <rect x="300" y="96" width="720" height="80" rx="8" fill="#fff" stroke="#F0E0C8" />
+  <rect x="300" y="192" width="360" height="80" rx="8" fill="#fff" stroke="#F0E0C8" />
+  <rect x="300" y="288" width="240" height="64" rx="8" fill="#fff" stroke="#F0E0C8" />
+
+  <!-- engagement icons -->
+  <g fill="#F97316" transform="translate(620,140)">
+    <circle cx="0" cy="0" r="12" />
+    <text x="24" y="4" font-family="Inter, Arial, sans-serif" font-size="14" fill="#92400E">Likes</text>
+  </g>
+  <g fill="#06b6d4" transform="translate(620,188)">
+    <circle cx="0" cy="0" r="12" />
+    <text x="24" y="4" font-family="Inter, Arial, sans-serif" font-size="14" fill="#036575">Comments</text>
+  </g>
+  <g fill="#34d399" transform="translate(620,236)">
+    <circle cx="0" cy="0" r="12" />
+    <text x="24" y="4" font-family="Inter, Arial, sans-serif" font-size="14" fill="#065f46">Shares</text>
+  </g>
+
+  <text x="300" y="72" fill="#92400E" font-family="Inter, Arial, sans-serif" font-size="20">Social Media Marketing</text>
+</svg>

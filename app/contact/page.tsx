@@ -278,6 +278,7 @@ export default function ContactPage() {
                         value={formData.name}
                         onChange={(e) => setFormData((prev) => ({ ...prev, name: e.target.value }))}
                         required
+                        className="border-black dark:border-white"
                       />
                     </div>
                     <div className="space-y-2">
@@ -289,6 +290,7 @@ export default function ContactPage() {
                         value={formData.email}
                         onChange={(e) => setFormData((prev) => ({ ...prev, email: e.target.value }))}
                         required
+                        className="border-black dark:border-white"
                       />
                     </div>
                   </div>
@@ -302,6 +304,7 @@ export default function ContactPage() {
                         placeholder="Enter your phone number"
                         value={formData.phone}
                         onChange={(e) => setFormData((prev) => ({ ...prev, phone: e.target.value }))}
+                        className="border-black dark:border-white"
                       />
                     </div>
                     <div className="space-y-2">
@@ -312,6 +315,7 @@ export default function ContactPage() {
                         value={formData.company}
                         onChange={(e) => setFormData((prev) => ({ ...prev, company: e.target.value }))}
                         required
+                        className="border-black dark:border-white"
                       />
                     </div>
                   </div>
@@ -322,8 +326,10 @@ export default function ContactPage() {
                       <Select
                         value={formData.industry}
                         onValueChange={(value) => setFormData((prev) => ({ ...prev, industry: value }))}
+                        
                       >
-                        <SelectTrigger>
+                        <SelectTrigger className="border-black dark:border-white">
+
                           <SelectValue placeholder="Select industry" />
                         </SelectTrigger>
                         <SelectContent>
@@ -341,7 +347,7 @@ export default function ContactPage() {
                         value={formData.employeeCount}
                         onValueChange={(value) => setFormData((prev) => ({ ...prev, employeeCount: value }))}
                       >
-                        <SelectTrigger>
+                        <SelectTrigger className="border-black dark:border-white">
                           <SelectValue placeholder="Select size" />
                         </SelectTrigger>
                         <SelectContent>
@@ -364,6 +370,7 @@ export default function ContactPage() {
                             id={service}
                             checked={formData.interests.includes(service)}
                             onCheckedChange={(checked) => handleInterestChange(service, checked as boolean)}
+                            className="border-black dark:border-white"
                           />
                           <Label htmlFor={service} className="text-sm">
                             {service}

@@ -1,6 +1,7 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Monitor, Camera, Layout, Server, Search, Wrench, Globe, Target, Image, Users, Megaphone, BarChart } from "lucide-react"
+import { Monitor, Camera, Layout, Server, Search, Wrench, Globe, Target, Image as LucideImage, Users, Megaphone, BarChart } from "lucide-react"
 
 export function MainServices() {
   return (
@@ -23,6 +24,16 @@ export function MainServices() {
                 </div>
               </CardHeader>
               <CardContent>
+                <div className="mb-4">
+                  <Image
+                    src="/web-design-illustration.svg"
+                    alt="Web design illustration"
+                    width={1200}
+                    height={480}
+                    className="rounded-md object-cover w-full h-40 md:h-48"
+                    priority={false}
+                  />
+                </div>
                 <CardDescription className="mb-4">
                   End-to-end web services including modern responsive design, reliable hosting, SEO, server
                   maintenance, and domain management to keep your site fast, secure and discoverable.
@@ -62,6 +73,16 @@ export function MainServices() {
                 </div>
               </CardHeader>
               <CardContent>
+                <div className="mb-4">
+                  <Image
+                    src="/smm-illustration.svg"
+                    alt="Social media marketing illustration"
+                    width={1200}
+                    height={480}
+                    className="rounded-md object-cover w-full h-40 md:h-48"
+                    priority={false}
+                  />
+                </div>
                 <CardDescription className="mb-4">
                   Full-service social media marketing: strategy, content creation, community management, paid
                   campaigns and analytics to turn engagement into measurable business results.
@@ -72,7 +93,7 @@ export function MainServices() {
                     SM Strategy Development
                   </Link>
                   <Link href="/services/smm-content" className="text-primary flex items-center gap-2">
-                    <Image className="h-4 w-4 text-primary" />
+                    <LucideImage className="h-4 w-4 text-primary" />
                     Content Creation
                   </Link>
                   <Link href="/services/smm-management" className="text-primary flex items-center gap-2">

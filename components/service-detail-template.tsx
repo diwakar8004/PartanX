@@ -56,20 +56,20 @@ export function ServiceDetailTemplate({ service }: ServiceDetailProps) {
               {service.tagline}
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Button size="lg" asChild>
-                <Link href="/security-assessment">
-                  Get a Security Assessment
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                asChild
-                className="w-full sm:w-auto border-2 border-green-600 dark:border-white text-primary rounded-lg shadow-md hover:bg-primary hover:text-white dark:hover:text-white dark:hover:bg-green-800 hover:shadow-lg transition-all duration-200 flex items-center justify-center gap-2 px-8 py-4 bg-transparent"
-              >
-                <Link href="/contact">Talk to an Expert</Link>
-              </Button>
+                <Button size="lg" asChild className="w-full sm:w-64">
+                  <Link href="/security-assessment">
+                    Get a Security Assessment
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Link>
+                </Button>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  asChild
+                  className="w-full sm:w-64 border-2 border-green-600 dark:border-white text-primary rounded-lg shadow-md hover:bg-primary hover:text-white dark:hover:text-white dark:hover:bg-green-800 hover:shadow-lg transition-all duration-200 flex items-center justify-center gap-2 bg-transparent"
+                >
+                  <Link href="/contact">Talk to an Expert</Link>
+                </Button>
             </div>
           </div>
         </div>
